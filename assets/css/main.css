@@ -10,11 +10,11 @@ html {
 
 :root {
   --primary: #f7b801;
-  --secondary: #ffd100;
+  --secondary: #ff5e00;
 }
 
 body {
-  background: #fff;
+  background: #ffffff;
   font-size: 14px;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
@@ -265,7 +265,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .w {
-  background-color: #eee;
+  background-color: #ffffff;
 }
 
 .padding-none {
@@ -273,7 +273,7 @@ a:not([href]):not([tabindex]) {
 }
 
 .bg-gray {
-  background: #f9f9f9;
+  background: #fffdfd;
 }
 
 .overlay {
@@ -958,7 +958,7 @@ hr {
 }
 
 .testimonial-community {
-  background-color: #f3f4f6;
+  background: white
 }
 
 .testimonial-item {
@@ -1147,7 +1147,7 @@ hr {
   border: 5px solid #fff;
   box-shadow: 0px 0px 15px -10px gray;
   border-radius: 15px;
-  background: #fff;
+  background: white;
   transition: all 0.4s ease-in;
   transform-style: preserve-3d;
   margin: 10px;
@@ -1175,7 +1175,7 @@ hr {
 .events_box .content {
   height: 90%;
   width: 100%;
-  background: #fff;
+  background: linear-gradient(135deg, #3075ff, #ff1414);
   padding: 10px;
   margin-top: 10px;
   backface-visibility: hidden;
@@ -1286,7 +1286,7 @@ hr {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
   padding: 10px;
-  border: 1px solid #f1f1f1;
+  border: 1px solid #ff9292;
 }
 
 .form-control:hover {
@@ -2040,4 +2040,48 @@ button.accordionFAQs i.slidedown.slide-top {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+#footer {
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: var(--primary);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+#footer .mail {
+  justify-content: flex-start;
+}
+
+.contact-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mentor-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 20px; /* Add some space between the icons */
+}
+
+.mentor-profile a {
+  font-size: 2rem;
+  color: #007bb6;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  text-decoration: none; /* Remove underline */
+}
+
+.mentor-profile a:hover {
+  transform: scale(1.2);
+  color: #005582;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+  border-radius: 50%; /* Make the shadow effect circular */
 }
